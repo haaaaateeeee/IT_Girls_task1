@@ -1,0 +1,28 @@
+@media screen and (min-width: 810px) {
+    .container {
+        margin: 0 auto;
+        width: 100vw;
+        height: 100vh;
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .container {
+        font-size: 2vh;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .main_body {
+        width: 100%;
+        height: 80vh;
+    }
+}
